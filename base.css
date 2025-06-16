@@ -1,0 +1,289 @@
+header{
+	height:100px;
+	background-color:#6800a4;
+	display:flex;
+	width:100%;
+	margin:auto;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:500;
+}
+
+header img{
+	position:relative;
+	left:20px;
+}
+
+header h1{
+	position:relative;
+	left:50px;
+	line-height: 1.5em;
+}
+
+nav{
+	color:#44d500;
+	position:relative;
+	left:600px;
+	width:40%;
+	top:20%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-transform:uppercase;
+	text-align: center;
+	display:inline-flex;
+}
+
+nav li{
+	margin-left:20px;
+	width:100px;
+}
+
+nav ul a{
+	text-decoration:none;
+	color:#44d500;
+	line-height:1.5em;
+}
+
+ul .active{
+	color:#000000;
+	background-color:#44d500;
+	height:25px;
+	width:100px;
+	line-height:1.5em;
+	cursor:default;
+	border-radius:10px;
+}
+
+main{
+	margin-top:95px;
+	overflow:hidden;
+}
+
+section{
+	position:relative;
+	left:2%;
+	margin-top:50px;
+}
+
+#seccion-i-2 .carrusel{
+	display:inline-flex;
+	gap:40px;
+}
+
+#seccion-i-2 p{
+	font-style: italic;
+}
+
+.resumen-item{
+	width:300px;
+	font-style:normal!important;
+}
+
+.open-noticias{
+	position:relative;
+	left:45%;
+}
+
+#seccion-i-3{
+	display:inline-flex;
+	height:750px;
+	width:100%;
+}
+
+.info-audicion{
+	position:relative;
+	left:700px;
+	top:-670px;
+	width:550px;
+	text-align: justify;
+	margin-bottom:-200px;
+}
+
+.boton-style{
+	height:50px;
+	width:550px;
+	border-radius: 25px;
+	background-color:#6800a4;
+	color:#ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size:2em;
+	line-height:1.5em;
+	position:relative;
+	left:700px;
+}
+
+#boton-1{
+	top:-110px;
+}
+
+#boton-2{
+	top:-65px;
+}
+
+footer{
+	height:200px;
+	width:100%;
+	background-color:#6800a4;
+	position:absolute;
+	left:0;
+	overflow-x:hidden;
+}
+
+.footer-site{
+	position:relative;
+	color:#ffffff;
+	left:100px;
+	top:50px;
+	font-size:1.5em;
+}
+
+.icons-redes{
+	position:relative;
+	left:100px;
+	top:100px;
+}
+
+.icons-redes a{
+	margin-left:15px;
+}
+
+.footer-index{
+	position:relative;
+	top:-15px;
+	left:800px;
+	display:inline-flex;
+	gap:150px;
+}
+
+.f-index{
+	width:50px;
+	display:flex;
+	flex-wrap: wrap;
+	gap:10px;
+	color:#ffffff;
+}
+
+.f-index a{
+	color:#44d500;
+	text-decoration:none;
+}
+
+.contenedor{
+	display:inline-flex;
+}
+
+.menu-contenedor{
+	display:flex;
+	flex-wrap: wrap;
+	gap:10px;
+	background-color:#6800a4;
+}
+
+.menu-contenedor img{
+	margin-left:25%;
+	margin-top:6%;
+	height:130px;
+	width:130px;
+}
+
+#seccion-t-2{
+	display:inline-flex;
+	width:100%;
+}
+
+.talent-info{
+	width:45%;
+	position:relative;
+	top:-1200px;
+	left:700px;
+	margin-bottom:-600px;
+}
+
+.boton-stream{
+	height:80px;
+	width:100%;
+	background-color:#6800a4;
+	border-radius:20px;
+	text-transform:uppercase;
+	font-size:2.5em;
+	text-align:center;
+	line-height: 2em;
+	color:#ffffff;
+}
+
+.talent-info a{
+	text-decoration:none;
+}
+
+.talent-info img{
+	position:relative;
+	top:75px;
+	left:50px;
+}
+
+form{
+	height:1100px;
+	width:60%;
+	background-color:#6800a4;
+	border-radius:25px;
+	margin-bottom:5%;
+}
+
+.tag-formulario{
+	height:50px;
+	width:400px;
+	color:#44d500;
+	font-size:2.5em;
+	font-weight:bold;
+	margin-left:50px;
+	position:relative;
+	top:50px;
+}
+
+input[type="textbox"]{
+	height:30px;
+	width:87.5%;
+	border-radius:15px;
+	border: solid #44d500 3px;
+	position:relative;
+	margin-left:50px;
+	margin-top:100px;
+}
+
+input[type="radio"]{
+	margin-top:50px;
+	margin-left:50px;
+	margin-bottom:25px;
+	position:relative;
+}
+
+form label{
+	font-size:1.5em;
+	color:#44d500;
+}
+
+.caja-grande{
+	height:150px!important;
+}
+
+.send-boton{
+	height:50px;
+	width:25%;
+	background-color:#44d500;
+	border-radius:20px;
+	color:#000000;
+	font-size:1.5em;
+	text-transform:uppercase;
+	margin-left:35%;
+	margin-top:5%;
+}
+
+.contacto-adorno{
+	position:absolute;
+	top:100px;
+	left:985px;
+}
