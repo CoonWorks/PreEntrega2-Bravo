@@ -28,12 +28,22 @@ header{
 	width:100%;
 	position:relative;
 	margin-right:2%;
-	gap:2rem;
+	gap:3rem;
 	text-transform:uppercase;
 }
 
 .bg-body-tertiary{
 	background-color:#6800a4!important;
+}
+
+.active{
+	background-color:#00ff00;
+	border-radius:25px;
+	font-weight: bold;
+}
+
+.nav-link:not(.active){
+	color:#00ff00;
 }
 
 main{
