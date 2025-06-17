@@ -107,7 +107,6 @@ footer{
 /* MQ para tablets */
 
 @media screen and (min-width: 768px){
-
 	.f-index{
 		width:25%;
 		left:5rem;
@@ -117,15 +116,6 @@ footer{
 /* MQ para escritorio */
 
 @media screen and (min-width: 1024px){
-
-}
-
-@media screen and (min-width: 1440px){
-	.navbar-nav{
-		justify-self:end;
-		gap:3rem;
-	}
-
 	.navbar-brand{
 		top:0rem;
 	}
@@ -136,14 +126,13 @@ footer{
 
 	.footer-site{
 		display:initial;
-		left:5rem;
-		top:3rem;
+		left:2rem;
 	}
 
 	.icons-redes{
-		left:-9rem;
-		top:6rem;
 		display:initial;
+		top:6rem;
+		left:-12rem;
 	}
 
 	.icons-redes a{
@@ -158,9 +147,25 @@ footer{
 
 	.f-index{
 		width:4rem;
-		display:flex;
-		flex-wrap: wrap;
 		gap:0.5rem;
 		color:#ffffff;
+		display:flex;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (min-width: 1440px){
+	.navbar-nav{
+		justify-self:end;
+		gap:3rem;
+	}
+
+	.footer-site{
+		left:5rem;
+		top:3rem;
+	}
+
+	.icons-redes{
+		left:-9rem;
 	}
 }
