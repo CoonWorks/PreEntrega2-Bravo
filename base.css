@@ -59,6 +59,7 @@ header{
 main{
 	margin-top:7rem;
 	overflow:hidden;
+	min-height:50vh;
 }
 
 footer{
@@ -198,6 +199,46 @@ footer{
 
 #fila-4 a div{
 	display:none;
+}
+
+/* Estilos mobile de contact.html */
+
+form{
+	width:90%;
+	margin-top:1rem;
+	display:flex;
+	flex-direction: column;
+	justify-self: center;
+	background-color:#6800a4;
+	color:#00ff00;
+}
+
+.form-row{
+	margin-bottom:1rem;
+}
+
+.form-row .tag-formulario{
+	margin-bottom:0.5rem;
+}
+
+form input[type="textbox"]{
+	width:90%;
+	margin-left:1rem;
+}
+
+form input[type="radio"]{
+	margin-left:1rem;
+}
+
+.form-row button{
+	margin:0 45% auto;
+	background-color:#00ff00;
+	color:#000000;
+	font-weight:bold;
+}
+
+.caja-grande{
+	height:5rem;
 }
 
 /* || Media Queries, usando breakpoints mas comunes para diseño responsive || */
