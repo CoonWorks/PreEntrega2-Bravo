@@ -170,7 +170,8 @@ footer{
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	flex-direction: row;
+	align-items: center;
+	flex-direction:column;
 }
 
 .grid-column-2 .grid-row-2 img{
@@ -224,6 +225,21 @@ footer{
 
 	.boton-stream{
 		display:none;
+	}
+
+	#columna-3{
+		align-items: center;
+	}
+
+	.grid-container-3{
+		display:grid;
+		grid-template-columns: repeat(2, 45%);
+		justify-content: space-evenly;
+	}
+
+	.grid-column-3 img{
+		width:100%;
+		margin:0;
 	}
 }
 
@@ -302,6 +318,12 @@ footer{
 		margin-left:3rem;
 		display:initial;
 	}
+
+	.grid-column-2 .grid-row-2 img{
+		width:100%;
+		position:relative;
+		right:1rem;
+	}
 }
 
 @media screen and (min-width: 1440px){
@@ -334,28 +356,16 @@ footer{
 
 	/* Estilos para talents.html */
 
-	.talent-info a{
-		display:inline-flex;
-		width:100%;
-		flex-wrap: wrap;
-		gap:1rem;
-		background-color:#6800a4;
-		border-radius:25px;
-		color:#ffffff;
-		text-decoration: none;
-		align-items: center;
-		text-transform: uppercase;
-		font-size:2rem;
-		margin-top:5rem;
-	}
-
-	.talent-info a img{
-		height:60px;
-		width:70px;
-		margin-left:3rem;
+	.grid-column-2 .grid-row-2 img{
+		width:125%;
+		right:2rem;
 	}
 
 	.boton-stream{
 		margin-left:9rem;
+	}
+
+	.grid-column-3 img{
+		width:75%;
 	}
 }
