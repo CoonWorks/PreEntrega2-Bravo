@@ -107,6 +107,11 @@ footer{
 	display:none;
 }
 
+.open-noticias{
+	width:100%;
+	text-align:center;
+}
+
 #seccion-i-1 img{
 	width:100%;
 	height:100%;
@@ -135,7 +140,7 @@ footer{
 	text-transform: uppercase;
 	margin-bottom:0.5rem;
 	line-height: 2rem;
-	font-weight: bold;
+	font-weight:bold;
 }
 
 /* || Media Queries, usando breakpoints mas comunes para diseño responsive || */
@@ -157,6 +162,15 @@ footer{
 		margin-left:1rem;
 		position:relative;
 		top:-10rem;
+	}
+
+	.boton-style{
+		position:relative;
+		top:-8rem;
+	}
+
+	#boton-2{
+		margin-bottom:-7rem;
 	}
 }
 
@@ -212,6 +226,18 @@ footer{
 	#seccion-i-3 p{
 		top:-14rem;
 	}
+
+	.boton-style{
+		width:45%;
+		position:relative;
+		left:47%;
+		top:-5.25rem;
+		border-radius:25px;
+	}
+
+	#boton-2{
+		margin-bottom:-3rem;
+	}
 }
 
 @media screen and (min-width: 1440px){
@@ -231,5 +257,12 @@ footer{
 
 	#seccion-i-3 p{
 		top:-19.75rem;
+	}
+
+	.boton-style{
+		height:4rem;
+		line-height:4rem;
+		font-size:2rem;
+		top:-20rem;
 	}
 }
