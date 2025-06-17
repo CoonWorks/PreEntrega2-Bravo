@@ -28,7 +28,6 @@ header{
 	width:100%;
 	position:relative;
 	margin-right:2%;
-	gap:3rem;
 	text-transform:uppercase;
 }
 
@@ -38,7 +37,6 @@ header{
 
 .active{
 	background-color:#00ff00;
-	border-radius:25px;
 	font-weight: bold;
 }
 
@@ -74,9 +72,10 @@ footer{
 }
 
 .footer-index{
+	width:50%;
 	position:relative;
 	top:-1.75rem;
-	left:50rem;
+	left:30rem;
 	display:inline-flex;
 	gap:8rem;
 }
@@ -92,9 +91,11 @@ footer{
 
 /* Media Queries, usando breakpoints mas comunes para diseño responsive */
 
-@media (max-width: 600px){
+@media (max-width: 425px){
 	.navbar-nav{
 		justify-self:center;
+		text-align:center;
+		background-color:#6800a4;
 	}
 
 	.navbar-brand{
@@ -113,20 +114,30 @@ footer{
 	}
 }
 
-@media (min-width: 600px){
+@media (min-width: 426px){
+
 }
 
 @media (min-width: 768px){
+	.footer-index{
+		gap:2rem;
+		justify-content: flex-end;
+	}
 
+	.f-index{
+		width:25%;
+		left:5rem;
+	}
 }
 
-@media (min-width: 992px){
-
-}
-
-@media (min-width: 1200px){
+@media (min-width: 1024px){
 	.navbar-nav{
 		justify-self:end;
+		gap:3rem;
+	}
+
+	.active{
+		border-radius:25px;
 	}
 
 	.footer-site{
@@ -144,11 +155,16 @@ footer{
 		margin-left:1rem;
 	}
 
+	.footer-index{
+		gap:4rem;
+		justify-content:flex-end;
+	}
+
 	.f-index{
-	width:4rem;
-	display:flex;
-	flex-wrap: wrap;
-	gap:0.5rem;
-	color:#ffffff;
+		width:4rem;
+		display:flex;
+		flex-wrap: wrap;
+		gap:0.5rem;
+		color:#ffffff;
 	}
 }
