@@ -1,11 +1,15 @@
 @import "reset";
 @import "variables";
 
-header {
-	height: 100px;
+@mixin fixedParts{
 	background-image: linear-gradient($clrPri, transparent);
-	display: flex;
 	width: 100%;
+}
+
+header {
+	@include fixedParts;
+	height: 100px;
+	display: flex;
 	margin: auto;
 	position:fixed;
 	left: 0;
@@ -83,13 +87,12 @@ main {
 }
 
 footer {
+	@include fixedParts;
 	height: 12rem;
-	width: 100%;
-	background-image: linear-gradient(transparent, $clrPri);
 	overflow-x: hidden;
 
 	.footer-site {
-		width: 150%;
+		width: 100%;
 		position: relative;
 		color: $clrTexto;
 		display: flex;
