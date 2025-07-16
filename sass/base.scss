@@ -2,8 +2,12 @@
 @import "variables";
 
 @mixin fixedParts{
-	background-image: linear-gradient($clrPri, transparent);
+	background-image: linear-gradient($clrPri, $clrBase);
 	width: 100%;
+}
+
+html{
+	background-color: $clrBase;
 }
 
 header {
@@ -17,7 +21,7 @@ header {
 	z-index: 500;
 
 	.bg-body-tertiary {
-			background-image: linear-gradient($clrPri, transparent);
+			background-image: linear-gradient($clrPri, $clrBase);
 	}
 
 	.navbar {
@@ -36,7 +40,7 @@ header {
 			.navbar-toggler {
 				position: relative;
 				top: -0.75rem;
-				border-color: $clrSec;
+				border-color: #3b005c;
 			}
 
 			.collapse {
@@ -84,10 +88,12 @@ main {
 	margin-top: 7rem;
 	overflow: hidden;
 	min-height: 50vh;
+	background-color: $clrBase;
 }
 
 footer {
-	@include fixedParts;
+	background-image: linear-gradient($clrBase, $clrPri);
+	width: 100%;
 	height: 12rem;
 	overflow-x: hidden;
 

@@ -11,15 +11,25 @@ main {
 
 	#seccion-i-2 {
 		display: none;
+		width: 100%;
 
 		@media screen and (min-width: $brkpntDesktop) {
 			display: initial;
 		}
 
 		.carrusel {
+			width: 300px;
+			justify-content: space-evenly;
+			
 			@media screen and (min-width: $brkpntDesktop) {
 				display: inline-flex;
 				gap: 1rem;
+			}
+
+			.carru-item{
+				.resumen-item{
+					width: 100%;
+				}
 			}
 		}
 
@@ -31,6 +41,7 @@ main {
 
 	#seccion-i-3 {
 		margin-top: 2rem;
+		margin-bottom: 1rem;
 
 		.grid-container {
 			width: 100%;

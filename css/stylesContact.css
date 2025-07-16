@@ -177,6 +177,7 @@ main section form {
   justify-self: center;
   background-color: #6800a4;
   color: #00ff00;
+  margin-bottom: 1rem;
 }
 @media screen and (min-width: 768px) {
   main section form {

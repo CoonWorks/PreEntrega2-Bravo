@@ -58,6 +58,7 @@ main {
 
 		.grid-container-3 {
 			width: 100%;
+			margin-bottom: 1rem;
 
 			@media screen and (min-width: $brkpntTablets) {
 				display: grid;
