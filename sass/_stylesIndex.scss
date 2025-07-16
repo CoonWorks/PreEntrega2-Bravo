@@ -19,11 +19,11 @@ main {
 
 		.carrusel {
 			width: 300px;
-			justify-content: space-evenly;
 			
 			@media screen and (min-width: $brkpntDesktop) {
 				display: inline-flex;
 				gap: 1rem;
+				margin-left: 4%;
 			}
 
 			.carru-item{

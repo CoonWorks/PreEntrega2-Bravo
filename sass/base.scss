@@ -40,7 +40,7 @@ header {
 			.navbar-toggler {
 				position: relative;
 				top: -0.75rem;
-				border-color: #3b005c;
+				border-color: $clrSec;
 			}
 
 			.collapse {
@@ -70,7 +70,7 @@ header {
 						}
 
 						.active{
-							background-color: $clrSec;
+							background-color: #3b005c;
 							font-weight: bold;
 
 							@media screen and (min-width: $brkpntDesktop) {
@@ -119,6 +119,7 @@ footer {
 	.icons-redes {
 		width: 100%;
 		position: relative;
+		z-index: 5;
 		top: 5rem;
 		display: inline-flex;
 		justify-content: space-evenly;
@@ -126,7 +127,7 @@ footer {
 		@media screen and (min-width: $brkpntDesktop) {
 			display: initial;
 			top: 6rem;
-			left: -10.25rem;
+			left: -11.75rem;
 		}
 
 		@media screen and (min-width: $brkpntWide) {
