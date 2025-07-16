@@ -53,7 +53,7 @@ header .navbar .container-fluid .collapse .navbar-nav {
   }
 }
 header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:not(.active) {
-  color: #00ff00;
+  color: #ffffff;
 }
 @media screen and (min-width: 1024px) {
   header .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:not(.active) {

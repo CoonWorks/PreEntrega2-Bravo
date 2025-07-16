@@ -58,7 +58,7 @@ header {
 
 					.nav-item{
 						.nav-link:not(.active){
-							color: $clrSec;
+							color: $clrBase;
 
 							@media screen and (min-width: $brkpntDesktop) {
 								text-shadow: $sombra;
